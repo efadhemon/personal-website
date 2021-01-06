@@ -19,18 +19,31 @@ section{
    padding-bottom: 150px;
 }
 
+/*==========================================================
+    header css
+==========================================================*/
+
 header#top_bar {
-    margin-right: 5%;
-    padding: 2%;
+    overflow: hidden;
+    background: #d9d3d399;
+    margin-bottom: 50px;
+    
 }
 
-header#top_bar ul li {
+.logo {width: 250px;}
+
+.logo img {
+    width: 100%;
+    float: left;
+}
+
+.topBar_item ul li {
     list-style: none;
     margin-left: 675px;
 }
 
-header#top_bar ul li a {
-    padding: 0 25px;
+.topBar_item ul li a {
+    padding: 40px 25px;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -50,7 +63,7 @@ header#top_bar ul li a {
 .half_width {
     width:50%;
     float: left;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .half_width h1 {
@@ -118,6 +131,10 @@ section#about {
 
 section#projects {
     background: #F8F9FC;
+    background-image: url(images/bg2.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .project_intro h1 {
