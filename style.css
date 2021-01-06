@@ -1,0 +1,255 @@
+/*==========================================================
+    commun css
+==========================================================*/
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+section{
+   height: 600px;
+   padding-bottom: 150px;
+}
+
+header#top_bar {
+    margin-right: 5%;
+    padding: 2%;
+}
+
+header#top_bar ul li {
+    list-style: none;
+    margin-left: 675px;
+}
+
+header#top_bar ul li a {
+    padding: 0 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+}
+
+/*==========================================================
+    myself css
+==========================================================*/
+
+.name_highlight{
+    color: orange;
+}
+
+
+.half_width {
+    width:50%;
+    float: left;
+}
+
+.half_width h1 {
+    margin-top: 140px;
+    font-size: 80px;
+}
+
+
+.half_width img {
+    width: 100%;
+}
+
+.link_btn {
+    text-decoration: none;
+    background-image:linear-gradient(45deg,lightsalmon, #ff6347);
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+/*==========================================================
+    about css
+==========================================================*/
+
+.about_img {width: 50%;float: left;}
+
+.about_img img {
+    width: 100%;
+}
+
+.about_details {
+    width: 35%;
+    float: right;
+    margin-top: 200px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgb(249,48,4);
+    background: linear-gradient(90deg, rgba(249,48,4,1) 0%, rgba(4,57,240,1) 100%);
+}
+
+.about_details h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    color: white;
+}
+
+.about_details p {
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+/*==========================================================
+    projects css
+==========================================================*/
+
+
+section#projects {
+    background: #F8F9FC;
+}
+
+.project_intro h1 {
+    text-align: center;
+    padding: 80px 0;
+    font-size: 40px;
+}
+
+.project_intro h1 span {
+    color: tomato;
+}
+
+.single_project {
+    width: 360px;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+    background: white;
+    box-sizing: border-box;
+    padding: 18px;
+    border-radius: 15px;
+}
+
+.single_project img {
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffb93947;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.single_project:last-child {
+    margin-right: 0;
+}
+
+.single_project h3 {font-size: 25px;}
+
+.single_project p {
+    line-height: 30px;
+}
+
+/*==========================================================
+    works_item css
+==========================================================*/
+
+section#works_item {
+    height: 180px;
+}
+
+.work_box h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.single-work {
+    width: 340px;
+    margin-left: 30px;
+    float: left;
+    box-shadow: 0px 5px 30px #00000080;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.single-work:last-child {
+    margin-right: 30px;
+}
+
+.single-work i {
+    font-size: 35px;
+}
+
+.single-work h5 {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+/*==========================================================
+    inquiry css
+==========================================================*/
+
+section.work_inquiry {
+    margin: 120px 0;
+    height: 90px;
+}
+
+.inquiry_item{
+    background-image: url(images/Group_33094_1.png);
+    width: 70%;
+    margin: auto;
+    padding: 90px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.inquiry_item h1 {
+    font-size: 50px;
+    width: 50%;
+    color: white;
+    display: inline;
+}
+
+.inquiry_item a {
+    float: right;
+}
+
+
+/*==========================================================
+    footer css
+==========================================================*/
+
+
+.footer_item {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer_item h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: grey;
+    line-height: 0;
+}
+
+.footer_item h2 {
+    font-size: 32px;
+}
+
+.footer_item img {
+    width: 40px;
+    padding: 0px 20px;
+}
